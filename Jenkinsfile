@@ -34,7 +34,7 @@ node{
 			sh 'docker rm -f tomcattest'
 		   }
 		catch(error){
-			//  do nothing if there is an exception
+			// do nothing if there is an exception
 		   }
 	}
 	stage('Docker deployment'){
